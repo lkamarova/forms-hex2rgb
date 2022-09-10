@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ERROR_TEXT } from "../constants";
+import { ERROR_TEXT } from "../../constants";
 
 const FormColorHex = ({ onColorChanged }) => {
   const [colorInput, setColorInput] = useState("#0f2027");

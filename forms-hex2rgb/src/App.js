@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import "./App.css";
 import { ERROR_TEXT } from "./constants";
-import FormColorHex from "./formColorHex/FormColorHex";
+import FormColorHex from "./conponents/formColorHex/FormColorHex";
 import { converterToRgb, getStyleBackground } from "./utils";
 
 function App() {
